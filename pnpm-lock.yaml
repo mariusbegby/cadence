@@ -21,8 +21,8 @@ importers:
         specifier: ^6.7.0
         version: 6.7.0(@discord-player/extractor@4.5.0)(bufferutil@4.0.8)(opusscript@0.0.8)
       discord-player-youtubei:
-        specifier: ^1.2.0
-        version: 1.2.0
+        specifier: ^1.2.4
+        version: 1.2.4
       dotenv:
         specifier: ^16.4.5
         version: 16.4.5
@@ -845,8 +845,8 @@ packages:
   discord-api-types@0.37.93:
     resolution: {integrity: sha512-M5jn0x3bcXk8EI2c6F6V6LeOWq10B/cJf+YJSyqNmg7z4bdXK+Z7g9zGJwHS0h9Bfgs0nun2LQISFOzwck7G9A==}
 
-  discord-player-youtubei@1.2.0:
-    resolution: {integrity: sha512-zI05CH8qVTNi1NcaUD2XKYwfw4Ye+6Ws9/sGZqoQxTI2LN8rVd0fBs/cX4GbRFevTWVqzZy4LvriQRe8OYJxFg==}
+  discord-player-youtubei@1.2.4:
+    resolution: {integrity: sha512-kx6cXUz5tMUI+2E6ntRUCckCYYgFNWF872l6N3s4W29Jgmm+kkbefytogfsTM06ePncd1MQp6hBHoufr6b1TVQ==}
     hasBin: true
 
   discord-player@6.7.0:
@@ -1428,8 +1428,8 @@ packages:
       node-notifier:
         optional: true
 
-  jintr@2.0.0:
-    resolution: {integrity: sha512-RiVlevxttZ4eHEYB2dXKXDXluzHfRuw0DJQGsYuKCc5IvZj5/GbOakeqVX+Bar/G9kTty9xDJREcxukurkmYLA==}
+  jintr@2.1.1:
+    resolution: {integrity: sha512-89cwX4ouogeDGOBsEVsVYsnWWvWjchmwXBB4kiBhmjOKw19FiOKhNhMhpxhTlK2ctl7DS+d/ethfmuBpzoNNgA==}
 
   joycon@3.1.1:
     resolution: {integrity: sha512-34wB/Y7MW7bzjKRjUKTa46I2Z7eV62Rkhva+KkopW7Qvv/OSWBqvkSY7vusOPrNuZcUG3tApvdVgNB8POj3SPw==}
@@ -2193,8 +2193,8 @@ packages:
   youtube-sr@4.3.11:
     resolution: {integrity: sha512-3oHiS2x7PpMiDRW7Cq8nz1bkAIBOJHoOwkPl/oncM/+A9/3xxMDgMLGW2dsBEP1DHFyRXYTVABgfbdwHF8sXXQ==}
 
-  youtubei.js@10.2.0:
-    resolution: {integrity: sha512-JLKW9AHQ1qrTwBbre1aDkH8UJFmNcc4+kOSaVou5jSY7AzfFPFJK0yvX6afnLst0UVC9wfXHrLiNx93sutVErA==}
+  youtubei.js@10.3.0:
+    resolution: {integrity: sha512-tLmeJCECK2xF2hZZtF2nEqirdKVNLFSDpa0LhTaXY3tngtL7doQXyy7M2CLueramDTlmCnFaW+rctHirTPFaRQ==}
 
 snapshots:
 
@@ -3108,10 +3108,10 @@ snapshots:
 
   discord-api-types@0.37.93: {}
 
-  discord-player-youtubei@1.2.0:
+  discord-player-youtubei@1.2.4:
     dependencies:
       undici: 6.19.4
-      youtubei.js: 10.2.0
+      youtubei.js: 10.3.0
 
   discord-player@6.7.0(@discord-player/extractor@4.5.0)(bufferutil@4.0.8)(opusscript@0.0.8):
     dependencies:
@@ -3841,7 +3841,7 @@ snapshots:
       - supports-color
       - ts-node
 
-  jintr@2.0.0:
+  jintr@2.1.1:
     dependencies:
       acorn: 8.12.1
 
@@ -4520,8 +4520,8 @@ snapshots:
 
   youtube-sr@4.3.11: {}
 
-  youtubei.js@10.2.0:
+  youtubei.js@10.3.0:
     dependencies:
-      jintr: 2.0.0
+      jintr: 2.1.1
       tslib: 2.6.3
       undici: 5.28.4
