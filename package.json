@@ -65,7 +65,7 @@
         "@discord-player/extractor": "^4.5.0",
         "cluster": "^0.7.7",
         "config": "^3.3.12",
-        "discord-player": "^6.7.0",
+        "discord-player": "^6.7.1",
         "discord-player-youtubei": "^1.2.0",
         "dotenv": "^16.4.5",
         "drizzle-orm": "^0.32.1",
